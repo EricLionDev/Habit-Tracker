@@ -1,0 +1,54 @@
+body {
+  background-color: hsl(0, 0%, 10%);
+}
+#container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleBar {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+}
+.inputBar {
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.inputBtn {
+  background-color: hsl(115, 86%, 57%);
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.inputBtn:active {
+  background-color: hsla(115, 75%, 54%, 0.729);
+}
+
+.task-list {
+  list-style-type: none;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2b2b2b;
+  padding: 1rem 15rem;
+}
+
+.task-buttons {
+  display: flex;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  padding: 0 3rem;
+}
+
+.task-list li button {
+  justify-self: flex-end;
+}
